@@ -75,3 +75,23 @@ a {
   color: white;
   font-size: medium;
 }
+@media (max-width: 1115px) {
+  form {
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  form {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  form {
+    width: 70%;
+  }
+}
+@media (max-width: 540px) {
+  form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,123 @@
+header {
+  text-align: center;
+  background-color: rgb(40, 91, 168);
+  padding: 20px 0 20px 0;
+}
+header h1 {
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  word-spacing: -4px;
+  margin: 0;
+}
+.listSection {
+  margin-top: 20px;
+  width: 100%;
+}
+.listItemBase {
+  width: 100%;
+
+}
+.internalList {
+  height: 100%;
+  width: 100%;
+  border: 1px solid;
+  margin-top: 20px;
+  margin: auto;
+  text-align: center;
+}
+.listItemInternal {
+  display: inline-block;
+  width: 24.89%;
+  height: 100%;
+  /* border: 1px solid; */
+  vertical-align: middle;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.listItemInternal .star {
+  color: gold;
+  font-size: 23px;
+  vertical-align: sub;
+}
+.listItemInternal .numRating {
+  color: blue;
+  vertical-align: middle;
+}
+.listItemInternal progress {
+  margin-top: 10px;
+  width: 240px;
+  height: 17px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.listItemInternal progress::-webkit-progress-bar {
+  background-color: white;
+  border: 2px solid greenyellow;
+  border-radius: 20px;
+}
+.listItemInternal progress::-webkit-progress-value {
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+.progress-orange::-webkit-progress-bar {
+      border: 2px solid orange !important;
+}
+.progress-orange::-webkit-progress-value{
+    background-color: orange !important;
+}
+.listItemInternal h5 {
+  margin-bottom: 5px;
+}
+.listItemInternal {
+  word-spacing: normal;
+}
+.listItemInternal img,
+a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.box-shadow {
+  box-shadow: 10px 0 30px rgba(128, 128, 128, 0.15);
+  background-color: rgba(128, 128, 128, 0.1);
+}
+.listItemInternal button {
+  width: 60%;
+  height: 40px;
+  margin-top: 28px;
+  border-radius: 100px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+.listItemInternal button img {
+  width: 15px;
+  vertical-align: bottom;
+}
+footer {
+  height: 100px;
+  text-align: center;
+  border: 1px solid;
+  margin-top: 20px;
+}
+footer h1 {
+  padding-top: 5px;
+}
+@media (max-width: 1320px) {
+.listItemInternal {
+    width: 40%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 833px) {
+.listItemInternal {
+    width: 100%;
+    text-align: center;
+  }
+}
